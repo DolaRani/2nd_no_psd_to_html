@@ -1,0 +1,488 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+
+
+-------------------------------------
+
+Table of contents
+        
+    01. Typography
+    02. Header Area
+        2.1 Menu Area
+        2.2 Welcome Text
+        2.3 Social Icons
+    03. Getting Started
+    04. Design Area
+    05. Community Area
+    06. Subscribe Area
+    07. Download Area
+    08. Footer Area
+
+
+*/
+
+/* ===================================
+    Style of css
+====================================== */
+
+
+/************** 01. Typography ***************/
+
+
+@font-face{
+    font-family: "gothamRoundedBook";
+    src: url("../webfonts/GothamRoundedBook.woff") format("woff");
+}
+
+body,p{
+    font-family: "gothamRoundedBook";
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-family: "gothamRoundedBook";
+}
+
+
+h3{
+    color : #2BA086;
+    font-family: "gothamRoundedBook";
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.3em;
+}
+
+h4{
+    text-align: center;
+    color: #FFFFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "gothamRoundedBook";
+}
+
+h5{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "gothamRoundedBook";
+    letter-spacing: 3px;
+ }
+p{
+    color: #5A5B5D;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: "gothamRoundedBook";
+    line-height: 2em;
+}
+
+strong{
+        color: #333436;
+}
+/************** 02.Header Area ***************/
+
+.container{
+        width: 80%;
+        margin: 0 auto;
+        max-width: 100%;
+}
+
+ .header-area{
+        background: url("../images/header-bg.jpg") no-repeat 0 0/100% 100%;
+        color: #FFFFFFFF;
+        text-align: center;
+        overflow: hidden;
+        padding: 30px 0;
+ }
+
+ /************** 2.1 Menu Area ***************/
+
+.menu-area ul{
+        text-align: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+}
+ .menu-area ul li{
+        display: inline;
+        margin: 0 27px;
+ }
+
+.menu-area ul li a{
+        color: #FFFFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 3px;
+        border-bottom: 1px solid transparent;
+        display: inline-block;
+        padding-bottom: 10px;
+        transition: .5s;
+}
+ .menu-area ul .logo img{
+        margin:0 40px;
+        width: 55px;
+        height: auto;
+
+}
+   
+.menu-area ul .logo a{
+            border: none;
+}
+
+.menu-area ul .logo a:hover{
+            border: none;
+}
+
+.menu-area ul li a:hover{
+            border-bottom: 1px solid #2BA086;
+
+}
+
+/**************  2.2 Welcome Text ***************/
+
+.welcome-text{
+        margin-top: 187px;
+        overflow: hidden;
+}
+
+.welcome-text p{
+    color: #5A5B5D;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: "gothamRoundedBook";
+    line-height: 2em;
+}
+.btn{
+        text-decoration: none;
+        color: #FFFFFFFF;
+        text-transform: uppercase;
+        background-color: #2BA086;
+        padding: 14px 25px;
+        border-radius: 2px;
+        display: inline-block;
+        transition: 4s;
+        border: 1px solid transparent;
+    }
+.btn:hover{
+        background-color: #FFFFFFFF;
+        color: #2BA086;
+        border: 1px solid #2BA086;
+    }
+
+/************** 2.3 social Icons ***************/
+
+.social-icons{
+        overflow: hidden;
+    }
+.social-icons ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top: 250px;
+
+}
+.social-icons ul li{
+        display: inline;
+        margin: 0 10px;
+
+}
+.social-icons ul li a{
+        color: #FFFFFFFF;
+        text-decoration: none;
+        font-size: 20px;
+}
+.social-icons ul li a:hover{
+       color: #2BA086;
+}
+
+/************** 03. Getting Started ***************/
+
+.getting-started{
+        background-color: #F5F6F8;
+        overflow: hidden;
+        padding: 30px 0;
+}
+.getting-started .start-text{
+        width: 50%;
+}
+
+.getting-started .text-area{
+        margin-top: 80px;
+        padding-bottom: 40px;
+        background-image: url("../images/hand.png");
+        background-repeat: no-repeat;
+        background-size: 50% auto; 
+        background-position: top right;
+}
+.text-area p{
+        margin: 30px 0;
+}
+.col-1-2{
+        width: 50%;
+        float: left;
+        overflow: hidden;
+}
+
+/************** 04. Design Area ***************/
+
+.design-area{
+        overflow: hidden;
+        margin-top: 60px;
+        padding: 30px 0;
+}
+.design{
+        overflow: hidden;
+        background-image: url("../images/mobile.png");
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: top left;
+   
+}
+.design-text{
+        width: 42%;
+        float: right;
+        overflow: hidden;
+}
+.slide{
+        margin: 50px 0;
+}
+.design .arrow i{
+        color: #000000;
+        font-size: 20px;
+        margin-right: 10px;
+}
+
+/**************  05. Subscribe Area ***************/
+
+.subscribe-area{
+       background: url("../images/subscribe-bg.jpg") no-repeat 0 0/100% 100%; 
+       padding: 300px 100px;
+       overflow: hidden;
+
+}
+.subscribe-area form{
+        width: 320px;
+        margin: 0 auto;
+}
+.subscribe-area form input[type="email"]{
+        background: #FFFFFFFF;
+        padding: 13px 20px;
+        text-transform: uppercase;
+        border: 1px solid #FFFFFF;
+        border-radius: 3px 0 0 3px;
+        margin-right: 0;
+        font-size: 14px;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 2px;
+
+}
+.subscribe-area form button{
+        background: #2BA085;
+        padding: 16px 20px 14.8px; 
+        border: none;
+        border-radius: 0 3px 3px 0;
+        margin-left: -4px;
+        color: #FFFFFFFF;
+
+}
+
+/**************   06. Community Area ***************/
+
+.community-area{
+        padding: 100px 0;
+        overflow: hidden;
+}
+
+.community-area .arrow i{
+        color: #000000;
+        font-size: 20px;
+        float: right;
+        margin-right: 10px;
+    
+}
+.community h3{
+        color: #2D2E30;
+}
+.community  .row{
+        width: 100%;
+        overflow: hidden;
+}
+.col-1-3{
+        width: 32%; 
+        float: left;
+        overflow: hidden;
+        margin-right: 2%;
+}
+.col-1-3:nth-child(3n){
+        margin-right: 0;
+}
+
+.col-1-3 img{
+        width: 100%;
+        height: auto;
+}
+.logo-2{
+        text-align: center;
+}
+
+.col-1-3 .picture-1{
+       margin-top: 35px;
+       width: 55px;
+       height: auto;
+       overflow: hidden;
+
+}
+.community-area .content h3{
+        text-align: center;
+}
+.community-area .content p{
+        text-align: center;
+        color: #4C4D4F;
+        letter-spacing: 1px;
+        font-size: 10px;
+        font-family: "gothamRoundedBook";
+        line-height: 1.3em;
+}
+
+
+/************** 07. Download Area ***************/
+.download-area{
+        padding: 40px 10px;
+        overflow: hidden;
+        background-color: #F5F6F8;
+}
+.download-area .download-textarea h3{
+        color: #3A3B3D;
+        text-align: center;
+        font-weight: bold;
+        font-family: "gothamRoundedBook";
+}
+.download-area .download-textarea p{
+        text-align: center;
+        text-transform: uppercase;
+        color: #424345;
+        font-family: "gothamRoundedBook";
+        letter-spacing: 2px;
+}
+
+
+.form-area{
+   
+    padding: 20px 0;
+    text-align: center;
+}
+
+.form-area .btn-text{
+
+        background-color: #35BC9B;
+        padding: 15px 16px 15.2px;
+        text-transform: uppercase;
+        border: 1px solid #00B994;
+        border-radius: 3px 0 0 3px;
+        margin-right: 0;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2px;
+        font-family: "gothamRoundedBook";
+        display: inline-block;
+        margin-top: 20px;
+}
+
+.form-area a{
+
+    text-decoration: none;
+}
+
+.form-area  .btn-text:hover{
+
+     background-color: #FFFFFF;
+     color: #2BA086;
+     transition: 4s;
+}
+
+.form-area .submit{
+
+        background-color: #2BA086;
+        padding: 16.4px 20px 14.7px;  
+        border: 1px solid #00B994;
+        border-radius: 0 3px 3px 0;
+        margin-left: -5px;
+        color: #FFFFFFFF;
+        margin-bottom:2px;
+        margin-right: 20px;
+
+}
+
+.form-area a{
+
+    text-decoration: none;
+}
+
+.form-area .submit:hover{
+     background-color: #FFFFFF;
+     color: #2BA086;
+     transition: 4s;
+}
+
+/************** 08. Footer Area ***************/
+
+.footer-area{
+        overflow: hidden;
+        padding: 30px 0;
+}
+.about-phototime-menu {
+     overflow: hidden;
+
+    }
+.about-phototime-menu ul {
+        padding: 0;
+    }
+
+.about-phototime-menu ul li{
+        list-style: none;
+
+    }
+
+.about-phototime-menu ul li a{
+        float: left;
+        text-decoration: none;
+        font-family: "gothamRoundedBook";
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #343434;
+        padding-right: 5px;
+        letter-spacing: 2px;
+
+    }
+.copyright-area{
+        float: left;
+        overflow:  hidden;
+}
+
+.copyright-area p{
+        color: #343434;
+        font-size: 14px;
+        font-family: "gothamRoundedBook";
+        font-weight: bold;
+        letter-spacing: 2px;
+}
+       
+.footer-area .logo-2{
+        float: right;    
+}
+
+
